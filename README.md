@@ -44,8 +44,8 @@ cd langgraph-mcp-agents
 2. Create a virtual environment and install dependencies using uv
 
 ```bash
-uv venv
-uv pip install -r requirements.txt
+uv venv -n 
+uv pip install -r requirements.txt -n
 source .venv/bin/activate  # On Windows, use: .venv\Scripts\activate
 ```
 
